@@ -266,7 +266,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 **Kết quả**
 
-![1](https://github.com/user-attachments/assets/c8677736-5fb9-47f2-ae45-fe9fde327603)
+![1](image/1.png)
 
 ### ⚠️ **Yêu cầu đặc biệt:**
 
@@ -326,7 +326,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit_form2'])) {
         
     - **Hiển thị lại thông tin người dùng** từ object vừa deserialize
 
-![2](https://github.com/user-attachments/assets/4e2a0757-3ac4-4086-b232-b6643420b6ac)
+![2](image/2.png)
 
 ## **2. Thực hiện khai thác lỗ hổng Unsafe deserialization**
 
@@ -358,4 +358,4 @@ Tzo0OiJFdmlsIjoxOntzOjM6ImNtZCI7czo2OiJ3aG9hbWkiO30=
     
 - Và nếu có `__destruct()` như trên → nó **chạy lệnh `whoami`**, và bạn thấy output trả về.
 
-![3](https://github.com/user-attachments/assets/ad594604-06d5-45f9-b996-0fadca7686ef)
+![3](image/3.png)
